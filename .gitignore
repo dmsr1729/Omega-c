@@ -1,0 +1,28 @@
+# API keys and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python virtual environments
+venv/
+venv311/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Uploaded documents and local database
+data/documents/
+data/vector_stores/
+data/document_metadata.json
+
+# Temporary test files
+test_gemini.py
+
+# System files
+.DS_Store
+Thumbs.db
+# All local documents and vector storage
+data/
