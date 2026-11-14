@@ -398,8 +398,6 @@ with st.sidebar:
     if st.button("🕸️  Knowledge Graph", key="nav_graph", use_container_width=True):
         st.session_state.page = "Knowledge Graph"
 
-    if st.button("✨  Intelligent Insights", key="nav_insights", use_container_width=True):
-        st.session_state.page = "Intelligent Insights"
     st.divider()
 
     st.markdown("### Document Upload")
